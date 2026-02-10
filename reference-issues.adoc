@@ -1,0 +1,21 @@
+---
+sidebar: sidebar 
+permalink: reference-issues.html 
+keywords: issues, bugs, known issues 
+summary: 알려진 문제는 이 제품 릴리스를 성공적으로 사용하지 못하게 할 수 있는 문제를 식별합니다. 
+---
+= Cloud Volumes ONTAP의 알려진 문제
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+알려진 문제는 이 제품 릴리스를 성공적으로 사용하지 못하게 할 수 있는 문제를 식별합니다.
+
+이번 릴리스에는 Cloud Volumes ONTAP에 특정한 알려진 문제가 없습니다.
+
+ONTAP 소프트웨어의 알려진 문제는 https://library.netapp.com/ecm/ecm_download_file/ECMLP2492508["ONTAP 릴리스 정보"^]에서 확인할 수 있습니다.

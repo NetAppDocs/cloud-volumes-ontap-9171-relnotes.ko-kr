@@ -1,0 +1,45 @@
+---
+indexpage:
+  title: Cloud Volumes ONTAP 9.17.1 릴리스 노트
+  summary: 본 릴리스 노트는 Cloud Volumes ONTAP 9.17.1의 새로운 기능, 제한 사항 및 알려진 문제에 대해 설명합니다.
+  keywords: RN, CVO, release notes Cloud Volumes ONTAP
+  lead: 본 릴리스 노트는 Cloud Volumes ONTAP 9.17.1의 새로운 기능, 제한 사항 및 알려진 문제에 대해 설명합니다.
+  tiles:
+  - title: 시작하기
+    links:
+    - title: 새로운 소식
+      url: reference-new.html
+    - title: 라이선스 개요
+      url: concept-licensing.html
+  - title: Amazon Web Services
+    links:
+    - title: 지원되는 구성
+      url: reference-configs-aws.html
+    - title: 스토리지 제한
+      url: reference-limits-aws.html
+    - title: 제한 사항
+      url: reference-limitations-aws.html
+  - title: Google Cloud
+    links:
+    - title: 지원되는 구성
+      url: reference-configs-gcp.html
+    - title: 스토리지 제한
+      url: reference-limits-gcp.html
+    - title: 제한 사항
+      url: reference-limitations-gcp.html
+  - title: Microsoft Azure
+    links:
+    - title: 지원되는 구성
+      url: reference-configs-azure.html
+    - title: 스토리지 제한
+      url: reference-limits-azure.html
+    - title: 제한 사항
+      url: reference-limitations-azure.html
+  - title: 블로그 및 커뮤니티
+    links:
+    - title: NetApp Console
+      url: https://www.netapp.com/console
+    - title: NetApp Data Services
+      url: https://www.netapp.com/data-services/
+    - title: NetApp 커뮤니티
+      url: https://community.netapp.com/

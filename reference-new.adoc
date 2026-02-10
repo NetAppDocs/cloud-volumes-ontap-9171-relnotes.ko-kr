@@ -1,0 +1,71 @@
+---
+sidebar: sidebar 
+permalink: reference-new.html 
+keywords: 'what"s new, new, features, release notes, enhancements' 
+summary: Cloud Volumes ONTAP 9.17.1에는 새로운 기능 향상이 포함되어 있습니다. 
+---
+= Cloud Volumes ONTAP 9.17.1의 새로운 기능
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Cloud Volumes ONTAP 9.17.1에는 새로운 기능 향상이 포함되어 있습니다.
+
+최신 버전의 NetApp Console에는 새로운 Cloud Volumes ONTAP 기능도 도입되었습니다. 자세한 내용은 Console에서 관리되는 https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/whats-new.html["Cloud Volumes ONTAP"^]의 새로운 기능을 참조하십시오.
+
+
+
+== 9.17.1 P3(2025년 12월 22일)
+
+Cloud Volumes ONTAP 9.17.1 P3 패치를 AWS, Azure 및 Google Cloud에서 업그레이드할 수 있습니다. NetApp Console에서 기존 시스템을 이 패치 릴리스로 업그레이드하라는 메시지가 표시됩니다.
+
+link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.17.1P3["P3 패치에서 수정된 버그 목록을 확인하십시오"^](NetApp Support Site 로그인 필요).
+
+
+
+== 9.17.1 P2(2025년 12월 4일)
+
+Cloud Volumes ONTAP 9.17.1 P2 패치를 AWS, Azure 및 Google Cloud에서 업그레이드할 수 있습니다. NetApp Console에서 기존 시스템을 이 패치 릴리스로 업그레이드하라는 메시지가 표시됩니다.
+
+link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.17.1P2["P2 패치에서 수정된 버그 목록을 확인하십시오"^](NetApp Support Site 로그인 필요).
+
+
+
+== 9.17.1 P1(2025년 11월 4일)
+
+Cloud Volumes ONTAP 9.17.1 P1 패치가 이제 AWS, Azure 및 Google Cloud에 배포 및 업그레이드할 수 있게 되었습니다. NetApp Console에서 기존 시스템을 이 패치 릴리스로 업그레이드하라는 메시지가 표시됩니다.
+
+link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.17.1P1["P1 패치에서 수정된 버그 목록을 확인하십시오"^](NetApp Support Site 로그인 필요).
+
+
+
+== 업그레이드 참고 사항
+
+이 릴리스로 업그레이드하는 방법에 대해 자세히 알아보려면 이 안내문을 읽어보십시오.
+
+
+
+=== 업그레이드 방법
+
+Cloud Volumes ONTAP 업그레이드는 Console에서 완료해야 합니다. System Manager 또는 CLI를 사용하여 Cloud Volumes ONTAP을 업그레이드하지 마십시오. 이렇게 하면 시스템 안정성에 영향을 미칠 수 있습니다.
+
+link:http://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-updating-ontap-cloud.html["Console에서 알림이 표시되면 업그레이드하는 방법을 알아보십시오"^].
+
+
+
+=== 지원되는 업그레이드 경로
+
+AWS, Azure 및 Google Cloud에서 9.16.1 릴리스에서 Cloud Volumes ONTAP 9.17.1 P1로 업그레이드할 수 있습니다. Console에서 적격한 Cloud Volumes ONTAP 시스템을 이 릴리스로 업그레이드하라는 메시지가 표시됩니다.
+
+
+
+=== 다운타임
+
+* 단일 노드 시스템 업그레이드는 최대 25분 동안 시스템을 오프라인 상태로 전환하며, 이 시간 동안 I/O가 중단됩니다.
+* HA 쌍 업그레이드는 서비스 중단 없이 진행되며 I/O는 중단되지 않습니다. 이러한 무중단 업그레이드 프로세스 동안 각 노드는 동시에 업그레이드되어 클라이언트에 대한 I/O 서비스를 지속적으로 제공합니다.
+

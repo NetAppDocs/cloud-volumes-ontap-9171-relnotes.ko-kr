@@ -1,0 +1,23 @@
+---
+sidebar: sidebar 
+permalink: sample-article.html 
+keywords:  
+summary:  
+---
+= 페이지 제목이 여기에 들어갑니다
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+이 템플릿은 게시글, 주제 등 어떤 이름으로 부르든 사용하십시오. index.adoc 파일에는 게시글 페이지에 필요한 올바른 키워드가 없으므로 이를 템플릿으로 사용하면 나중에 게시 문제가 발생할 수 있습니다.
+
+
+NOTE: 처음 게시하기 전에 이 파일을 삭제하세요. 사이드바에 링크되어 있지 않더라도 파일이 게시될 수 있습니다. 몇 개의 글을 작성한 후에는 그 글들을 시작 자료로 활용할 수 있습니다.
+
+게시글을 콘텐츠 하위 폴더에 저장할 경우, 위에 표시된 표기법을 두 가지로 수정해야 합니다.
+
+* `:imagesdir:../media/`
+* `permalink: folder-name/sample-article.html`
+
