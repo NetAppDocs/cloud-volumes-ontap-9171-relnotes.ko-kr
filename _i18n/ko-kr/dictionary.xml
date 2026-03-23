@@ -882,4 +882,8 @@
   <block id="23da396e754fd62d532665d492e38437" category="paragraph">Cloud Volumes ONTAP 9.17.1 P4 패치를 AWS, Azure 및 Google Cloud에서 업그레이드할 수 있습니다. NetApp Console에서 기존 시스템을 이 패치 릴리스로 업그레이드하라는 메시지가 표시됩니다.</block>
   <block id="cae74b75cb879fa6011c4bc1e9acafed" category="inline-link-macro">P4 패치에서 수정된 버그 목록을 확인하십시오</block>
   <block id="ef67d3bea0bd0f84efe8b5e0a8f4cd58" category="paragraph"><block ref="d5c398b0cc19baa27e1d3dab8cc29789" category="inline-link-macro-rx"></block>(NetApp Support Site 로그인 필요).</block>
+  <block id="c54ebced0c7ebd30dea0d504e0959914" category="section-title">9.17.1 P5(2026년 3월 23일)</block>
+  <block id="0914be2f951ac967ea57e8cf04de3d8a" category="paragraph">Cloud Volumes ONTAP 9.17.1 P5 패치를 AWS, Azure 및 Google Cloud에서 업그레이드할 수 있습니다. Console에서 기존 시스템을 이 패치 릴리스로 업그레이드하라는 메시지가 표시됩니다.</block>
+  <block id="e890150484086859b9a5078abe9c6f20" category="inline-link-macro">P5 패치에서 수정된 버그 목록을 확인하십시오</block>
+  <block id="58063f638b2fb1a02b64e1b1d04288f3" category="paragraph"><block ref="5b83e391540a70916a5ffdb75019f186" category="inline-link-macro-rx"></block>(NetApp Support Site 로그인 필요).</block>
 </blocks>
